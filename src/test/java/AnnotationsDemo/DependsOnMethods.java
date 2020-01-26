@@ -7,6 +7,7 @@ public class DependsOnMethods {
 	@Test
 	public void m1() {
 		System.out.println("hai from m1 "+this.getClass().getName());
+		System.out.println(System.getProperty("name"));
 	}
 	
 	@Test
